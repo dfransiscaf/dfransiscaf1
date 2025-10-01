@@ -39,6 +39,27 @@ Deploy and configure an AWS Lambda based serverless computing solution. The Lamb
 * Analyzed and corrected the Lambda function
   ![Analyzed](https://github.com/user-attachments/assets/5b7160b9-9b23-49e4-aeec-a19666cf8c6e)
 * Performed a test run with sample data and verified results
+```json
+{
+  "statusCode": 200,
+  "body": [
+    {
+      "product_group_number": 1,
+      "product_group_name": "Pastries",
+      "product_id": 1,
+      "product_name": "Croissant",
+      "quantity": 5
+    },
+    {
+      "product_group_number": 2,
+      "product_group_name": "Drinks",
+      "product_id": 8,
+      "product_name": "Hot Chocolate",
+      "quantity": 2
+    }
+  ]
+}
+```
   ![Test with sample data](https://github.com/user-attachments/assets/4cdc4096-0cd4-497a-8019-1d57691799aa)
 
 **4. Configured notifications**
@@ -49,6 +70,15 @@ Deploy and configure an AWS Lambda based serverless computing solution. The Lamb
 
 **5. Created the salesAnalysisReport Lambda function**
 * Created the salesAnalysisReport Lambda function using the AWS CLI
+```bash
+aws lambda create-function \
+  --function-name salesAnalysisReport \
+  --runtime python3.9 \
+  --zip-file fileb://salesAnalysisReport-v2.zip \
+  --handler salesAnalysisReport.lambda_handler \
+  --region <region> \
+  --role <salesAnalysisReportRoleARN>
+```
   ![Created lambda function](https://github.com/user-attachments/assets/6f56c577-5854-4214-9b20-a575c6b70bf1)
 * Configured the salesAnalysisReport Lambda function
   ![Configured](https://github.com/user-attachments/assets/b220a037-70c4-4d26-a28a-f87bccdf4a06)
