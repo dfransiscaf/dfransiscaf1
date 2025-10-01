@@ -19,9 +19,8 @@ I’m an AWS re/Start graduate with hands-on experience in core AWS services (EC
 Here are some projects I’ve worked on (or currently developing):  
 
 - 🌐 **[Deploying a Web App on EC2](./ec2-deploy/README.md)**
-- ☁️ **[Static Website Hosting on S3](./s3-hosting/README.md)** 
-- 🔔 **[Serverless Notifications with Lambda + SNS](./lambda+sns-notifications/README.md)** 
-- 🐍 **[Cloud Infrastructure Monitoring with CloudWatch](./cloudwatch-monitoring/README.md)** 
+- ☁️ **[Amazon S3 Hosting & Notifications](./s3-hosting/README.md)** 
+- 🔔 **[Deploy and Configure an AWS Lambda](./lambda-deploy/README.md)** 
 
 ---
 
