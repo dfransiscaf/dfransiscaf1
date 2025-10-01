@@ -1,4 +1,4 @@
-# ☁️ Hosting & Notifications with Amazon S3
+# ☁️ Hosting on Amazon S3 with Notifications
 
 ## 📝 Overview
 
