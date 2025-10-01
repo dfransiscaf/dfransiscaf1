@@ -17,31 +17,45 @@ Deploy and configure an AWS Lambda based serverless computing solution. The Lamb
 ## 🚀 Steps
 **1. Observed the IAM role settings**
 * Observed the salesAnalysisReport IAM role settings
+![Observed IAM role](https://github.com/user-attachments/assets/0dcbc777-04f4-4b34-b65c-dfdc6a025a1a)
 
 **2. Creating a Lambda layer and a data extractor Lambda function**
 * Created a Lambda Layer
+  ![Lambda layer](https://github.com/user-attachments/assets/78e5ab19-e13b-4549-8ee5-829f56892c45)
 * Created a data extractor Lambda function
+  ![Created data extractor](https://github.com/user-attachments/assets/b1ca959c-c778-40d7-ba4f-f6183db70df8)
 * Added the Lambda layer to the function
+  ![Added lambda layer](https://github.com/user-attachments/assets/32739bb7-b6fd-4d57-94d8-0d3d99063511)
 * Imported the code for the data extractor Lambda function
+  ![Impored the code](https://github.com/user-attachments/assets/6cedc3a9-4cba-47fb-ac2c-cee9cbc96f25)
 * Configured network settings for the function
+  ![Configured network](https://github.com/user-attachments/assets/34836226-1a64-433e-be5d-371f3b4a4658)
 
 **3. Tested the data extractor Lambda function**
 * Launched a test of the Lambda function
+  ![Launched a test](https://github.com/user-attachments/assets/1f113ad7-ec61-4bc7-a8db-bacc23f55056)
 * Troubleshoot the data extractor Lambda function
+  ![Troubleshoot](https://github.com/user-attachments/assets/6e5bb36f-91fe-4f47-86a4-06ed003aa69d)
 * Analyzed and corrected the Lambda function
+  ![Analyzed](https://github.com/user-attachments/assets/5b7160b9-9b23-49e4-aeec-a19666cf8c6e)
 * Performed a test run with sample data and verified results
+  ![Test with sample data](https://github.com/user-attachments/assets/4cdc4096-0cd4-497a-8019-1d57691799aa)
 
 **4. Configured notifications**
 * Created an SNS topic
+  ![Created SNS](https://github.com/user-attachments/assets/28eb40d9-9ae9-47dd-bec4-217471836fd7)
 * Subscribed to the SNS topic
+  ![Subscribed](https://github.com/user-attachments/assets/07d1bdbc-c1ff-49e3-8a7c-a96c4d7cceba)
 
 **5. Created the salesAnalysisReport Lambda function**
-* Connected to the CLI Host instance
-* Configured the AWS CLI
 * Created the salesAnalysisReport Lambda function using the AWS CLI
+  ![Created lambda function](https://github.com/user-attachments/assets/6f56c577-5854-4214-9b20-a575c6b70bf1)
 * Configured the salesAnalysisReport Lambda function
+  ![Configured](https://github.com/user-attachments/assets/b220a037-70c4-4d26-a28a-f87bccdf4a06)
 * Tested the salesAnalysisReport Lambda function
+  ![Tested](https://github.com/user-attachments/assets/5848cf88-60ae-4133-a858-7e7d05d5c950)
 * Added a trigger to the salesAnalysisReport Lambda function
+  ![Added trigger](https://github.com/user-attachments/assets/1e25b95b-2113-4273-9f5c-5485448c7bbb)
 
 ## ✅ Result 
 * Recognized necessary IAM policy permissions to enable a Lambda function to other AWS resources
