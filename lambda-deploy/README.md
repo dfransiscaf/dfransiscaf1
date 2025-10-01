@@ -10,8 +10,7 @@ Deploy and configure an AWS Lambda based serverless computing solution. The Lamb
 * **AWS CLI**
 * **Amazon SNS** 
 * **AWS IAM**
-* **Amazon CloudWatch**
-  
+
 ---
 
 ## 🚀 Steps
@@ -88,7 +87,7 @@ aws lambda create-function \
   ![Added trigger](https://github.com/user-attachments/assets/1e25b95b-2113-4273-9f5c-5485448c7bbb)
 
 ## ✅ Result 
-* Recognized necessary IAM policy permissions to enable a Lambda function to other AWS resources
+* Configured IAM policies to enable Lambda functions to access required AWS resources
 * Created a Lambda layer to satisfy an external library dependency
 * Created Lambda functions that extract data from the database and send reports to users
 * Deployed and tested a scheduled Lambda function that invokes another function
