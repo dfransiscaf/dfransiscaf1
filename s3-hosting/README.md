@@ -17,19 +17,19 @@ Create and configure an **Amazon S3 bucket** to share images with an external us
 
    * Connected to an EC2 instance (CLI Host).
    * Configured AWS CLI with `aws configure` using **mediacouser** credentials.
-     ![Set up CLI Host])(https://github.com/user-attachments/assets/53736acc-49d0-4527-94fe-11e20230ccea)
+     ![Set up CLI Host](https://github.com/user-attachments/assets/4eb5cd3b-92ac-4608-a363-13bd770610f2)
 
 2. **Creating and initializing the S3 share bucket**
 
    * Created a bucket (`cafe-247427`) to store product images.
    * Organized objects under `images/` prefix.
-     ![Create S3 Bucket])(https://github.com/user-attachments/assets/8630414d-d365-4679-8faa-681ff9e1c565)
+     ![Create S3 Bucket](https://github.com/user-attachments/assets/302e2789-de8a-4f25-a684-ae7a68d7b848)
      
 3. **Reviewing and Testing the IAM group and user permissions**
 
    * Checked IAM group *mediaco* and user *mediacouser*.
    * Verified that mediacouser could **upload** and **delete** objects but could **not change bucket permissions**.
-     ![Review & Testing IAM](https://github.com/user-attachments/assets/29a607a8-049b-4c81-a5f3-5d4dc3dde758)
+     ![Review & Testing IAM](https://github.com/user-attachments/assets/33022196-d493-44fb-9e5b-2f1966469e4c)
      
 4. **Configuring event notifications on the S3 share bucket**
 
