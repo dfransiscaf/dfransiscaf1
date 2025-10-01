@@ -1,9 +1,9 @@
 # Deploying a Web App on EC2
 
-## 📌 Overview
+## 📝 Overview
 This project demonstrates how to deploy a simple web application on **Amazon EC2**.
 
-## ⚙️ Tools & Technologies 
+## 🔧 Tools & Technologies
 - Amazon EC2  
 - Amazon Machine Image (AMI)    
 - VPC & Security Groups  
