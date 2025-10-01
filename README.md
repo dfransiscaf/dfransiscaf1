@@ -18,7 +18,7 @@ I’m an AWS re/Start graduate with hands-on experience in core AWS services (EC
 ### 📂 Projects / Case Studies
 Here are some case studies from projects/case studies I’ve worked on during training programs:  
 
-- 🌐 **[Launching a Web Server on EC2](./ec2-deploy/README.md)**
+- 🌐 **[Launching a Web Server on EC2](./ec2-launch/README.md)**
 - ☁️ **[Hosting on Amazon S3 with Notifications](./s3-hosting/README.md)** 
 - 💻 **[Deploying and Configuring an AWS Lambda Function](./lambda-deploy/README.md)** 
 
