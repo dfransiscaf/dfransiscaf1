@@ -13,32 +13,32 @@ Created and configured an **Amazon S3 bucket** to share images with an external 
 
 ## 🚀 Steps
 
-1. **Connected to the CLI Host EC2 instance and configured the AWS CLI**
+**1. Connected to the CLI Host EC2 instance and configured the AWS CLI**
 
    * Connected to an EC2 instance (CLI Host).
    * Configured AWS CLI with `aws configure` using **mediacouser** credentials.
      ![Set up CLI Host](https://github.com/user-attachments/assets/4eb5cd3b-92ac-4608-a363-13bd770610f2)
 
-2. **Created and initialized the S3 share bucket**
+**2. Created and initialized the S3 share bucket**
 
    * Created a bucket (`cafe-247427`) to store product images.
    * Organized objects under `images/` prefix.
      ![Create S3 Bucket](https://github.com/user-attachments/assets/302e2789-de8a-4f25-a684-ae7a68d7b848)
      
-3. **Reviewed and Tested the IAM group and user permissions**
+**3. Reviewed and Tested the IAM group and user permissions**
 
    * Checked IAM group *mediaco* and user *mediacouser*.
    * Verified that mediacouser could **upload** and **delete** objects but could **not change bucket permissions**.
      ![Review & Testing IAM](https://github.com/user-attachments/assets/33022196-d493-44fb-9e5b-2f1966469e4c)
      
-4. **Configured event notifications on the S3 share bucket**
+**4. Configured event notifications on the S3 share bucket**
 
    * Created an SNS topic `s3NotificationTopic`.
    * Subscribed admin email to receive notifications.
    * Added an event notification configuration to the S3 bucket.
      ![Configure Event Notifications](https://github.com/user-attachments/assets/546a178f-54ae-43af-bf85-45aacf235a77)
      
-5. **Tested the S3 share bucket event notifications**
+**5. Tested the S3 share bucket event notifications**
 
    * **Upload (PUT)** → uploaded `Caramel-Delight.jpg`
 
