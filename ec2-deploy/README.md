@@ -33,7 +33,7 @@ This project demonstrates how to deploy a simple web application on **Amazon EC2
 - **Step 1:** Select the instance by checking the box and navigate to the *Status checks* tab  
 - **Step 2:** Select the *Monitoring* tab  
 - **Step 3:** In the Actions menu, select *Monitor and troubleshoot → Get Instance Screenshot*
-![Monitor EC2 Instance](https://github.com/user-attachments/assets/5bbe4c26-32bc-4deb-a727-b5d299d10eba)
+![Monitor EC2 Instance](https://github.com/user-attachments/assets/342c72e1-581c-4d80-bf87-6a324781d60e)
 
 ## 3. Update Security Group & Access the Web Server
 - **Step 1:** Select the *Details* tab  
