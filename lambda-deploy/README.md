@@ -1,4 +1,4 @@
-# 💻 Deploy and Configure AWS Lambda Functions
+# 💻 Deploying and Configuring an AWS Lambda Function
 
 ## 📝 Overview
 Deploy and configure an AWS Lambda based serverless computing solution. The Lambda function generates a sales analysis report by pulling data from a database and emailing the results daily. The database connection information is stored in Parameter Store, a capability of AWS Systems Manager. The database runs on an Amazon EC2 instance configured with a LAMP stack (Linux, Apache, MySQL, PHP).
