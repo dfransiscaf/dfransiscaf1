@@ -1,7 +1,7 @@
-# Deploying a Web App on EC2
+# Launching a Web Server on EC2
 
 ## 📝 Overview
-This project demonstrates how to deploy a simple web application on **Amazon EC2**.
+This project demonstrates how to launch a simple web application on **Amazon EC2**.
 
 ## 🔧 Tools & Technologies
 - Amazon EC2  
@@ -44,7 +44,7 @@ This project demonstrates how to deploy a simple web application on **Amazon EC2
 * Select **Edit inbound rules → Add rule** (Type: `HTTP`, Source: `Anywhere-IPv4`)
 ![Add Security Group](https://github.com/user-attachments/assets/77b623b0-bc2f-4da5-a022-8fb067431448)
 * Save rules, return to the web server and refresh the page
-![Web App Launched](https://github.com/user-attachments/assets/07c2e023-0091-4fbb-b173-42db472c670f)
+![Web Launched](https://github.com/user-attachments/assets/07c2e023-0091-4fbb-b173-42db472c670f)
 
 ## ✅ Result
-Web app successfully deployed and accessible via Public IPv4
+Web app successfully launched and accessible via Public IPv4
